@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 
-require_relative"/home/nitrous/code/labs/ttt-6-position-taken-rb-q-000/lib/position_taken.rb"
+# require_relative"/home/nitrous/code/labs/ttt-6-position-taken-rb-q-000/lib/position_taken.rb"
 
 def valid_move?(board, position)
  position = position.to_i - 1
