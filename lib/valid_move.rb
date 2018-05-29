@@ -4,7 +4,7 @@ require_relative"/home/nitrous/code/labs/ttt-6-position-taken-rb-q-000/lib/posit
 
 def valid_move?(board, position)
  position = position.to_i - 1
-  if position.between?(0,8) && !position_taken?(board,position)
+  if (position.between?(0,8)) && !(position_taken?(board,position))
     true
   else
     false
